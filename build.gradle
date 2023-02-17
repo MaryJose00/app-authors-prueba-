@@ -24,5 +24,15 @@ dependencies {
     implementation 'io.quarkus:quarkus-resteasy'
     implementation 'io.quarkus:quarkus-resteasy-jackson'
 //    implementation 'io.quarkus:quarkus-flyway'
+
+    // https://mvnrepository.com/artifact/io.quarkus/quarkus-smallrye-openapi
+    implementation 'io.quarkus:quarkus-smallrye-openapi:3.0.0.Alpha4'
+
+
+// https://mvnrepository.com/artifact/io.swagger.core.v3/swagger-annotations
+   // implementation group: 'io.swagger.core.v3', name: 'swagger-annotations', version: '2.2.8'
+// https://mvnrepository.com/artifact/io.swagger/swagger-annotations
+   // implementation 'io.swagger:swagger-annotations:2.0.0-rc2'
+
 }
 
